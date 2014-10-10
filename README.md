@@ -1,8 +1,5 @@
-# farm-harvest-entertainment
+# pick
 
-Published 9/26/14 for Weekend. More to come.
+To be published 10/14/14
 
-[![screenshot](https://github.com/rgpages/farm-harvest-entertainment/blob/gh-pages/default.png)](http://pages.registerguard.com/farm-harvest-entertainment/) 
-
-### [RG Newsroom DataTables documentation](https://github.com/rgnewsroom/data/wiki/Using-DataTables)
-^^^ AKA: How to edit this DataTable ^^^
+[![screenshot](https://github.com/rgpages/pick/blob/gh-pages/default.png)](http://pages.registerguard.com/pick/)
