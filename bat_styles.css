@@ -265,8 +265,8 @@ audio{
 		bottom: 0;
 		background: rgba(255, 255, 255, .7);
 		margin: 0;
-		padding: 1em;
-		width: 100%;
+		padding: 5%;
+		width: 90%;
 	}
 
 	/* for .bat_inset */
@@ -436,8 +436,8 @@ audio{
 	text-transform: uppercase;
 	
 	text-align: center;
-	padding: .25em 0;
-	font-size: 3em;
+	padding: .1em 0;
+	font-size: 4em;
 	position: absolute;
 	top: 0;
 	background: rgba(0,0,0,.7);
@@ -464,8 +464,8 @@ audio{
 		/*color:white;
 		text-transform: uppercase;*/
 		text-align: left;
-		padding: .1em;
-		margin: 0;
+		width: 98%;
+		margin: 0 1%;
 		font-size: 8.5em;
 		line-height: .9em;
 		position: relative;
