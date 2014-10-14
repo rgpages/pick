@@ -309,11 +309,6 @@
 		// 	$(video).replaceWith(img);
 		// }
 		
-		if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-			$('video *').hide();
-			$('video img').show();
-		}
-		
 		// break byline to two lines so that "| The Register-Guard" doesn't break with multiple authors
 		if ($(window).width() <= 1005){
 			$(".bat_break").replaceWith("<br>");
