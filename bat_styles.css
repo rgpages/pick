@@ -447,7 +447,7 @@ audio{
 	position: absolute;
 	top: 0;
 	background: rgba(0,0,0,.7);
-	display: none;
+	/*display: none;*/
 	
 }
 
@@ -473,11 +473,12 @@ audio{
 		text-align: left;
 		width: 98%;
 		margin: 0 1%;
-		font-size: 8.5em;
+		font-size: 10em;
 		line-height: .9em;
 		position: relative;
 		background: none;
 		display: block;
+		text-shadow: 3px 3px 7px black;
 	}
 	
 	.bat_head figcaption{
