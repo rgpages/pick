@@ -301,13 +301,15 @@
 	<!-- custom goodness -->
 	<script>
 		// Make the looping video an image on iOS devices so that the play button doesn't show over any possible text
-		// var device = navigator.userAgent.toLowerCase();
-		// var ios = device.match(/(iphone|ipod|ipad)/);
-		// var video = $('video');
-		// var img = video.children("img");
-		// if (ios) {
-		// 	$(video).replaceWith(img);
-		// }
+		var device = navigator.userAgent.toLowerCase();
+		var ios = device.match(/(iphone|ipod|ipad)/);
+		$('video').each(function(index){
+			var img = $(this).children("img");
+			if (ios) {
+				$(this).replaceWith(img);
+			}
+			console.log("this " + index);
+		});
 		
 		// break byline to two lines so that "| The Register-Guard" doesn't break with multiple authors
 		if ($(window).width() <= 1005){
