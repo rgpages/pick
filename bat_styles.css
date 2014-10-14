@@ -417,7 +417,7 @@ audio{
 	/*text-align: left;
 	width: 100%;
 	margin: 0 auto;*/
-	width: 100%;
+	/*width: 100%;*/
 	
 }
 
@@ -432,7 +432,7 @@ audio{
 	padding: .25em 0;
 	text-transform: uppercase;
 	background: rgba(0,0,0,.7);*/
-	color: white;
+/*	color: white;
 	font-family: "BentonSansCond Regular", Arial, sans-serif;
 	width: 100%;
 	text-transform: uppercase;
@@ -443,7 +443,8 @@ audio{
 	font-size: 4em;
 	position: absolute;
 	top: 0;
-	background: rgba(0,0,0,.7);
+	background: rgba(0,0,0,.7);*/
+	display: none;
 	
 }
 
@@ -473,6 +474,7 @@ audio{
 		line-height: .9em;
 		position: relative;
 		background: none;
+		display: block;
 	}
 	
 	.bat_head figcaption{
