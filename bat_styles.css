@@ -291,7 +291,8 @@ audio{
 	/* increase pull quote size */
 	.bat_quote h4{
 		font-weight:100;
-		font-size:2.5em;
+		font-size:2em;
+		line-height: 1.5em;
 	}
 
 	/* increase attribution size */
@@ -299,6 +300,8 @@ audio{
 		font-weight:900;
 		font-size:1em;
 		margin: 10px 0 0 5%;
+		text-align: right;
+		line-height: 1em;
 	}
 
 	/* make it full width when it goes out to three columns */
@@ -308,7 +311,7 @@ audio{
 
 	/* make sub heads bigger */
 	.bat_wrap h3{
-		font-size: 2.25em;
+		font-size: 1.5em;
 		font-weight: 400;
 		margin: .5em 0;
 		letter-spacing: 0.01em;
