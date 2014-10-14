@@ -58,7 +58,8 @@ a:active { color: #ca4700; text-decoration: underline; }
 	font-family: "MillerHeadline Bold", Cambria, Georgia, serif;
 	font-size: 2em;
 	font-weight: 400;
-	margin: 1em 0 1em 0;
+	margin: 0;
+	line-height: 1.2;
 }
 
 /* hammerhead head on image */
@@ -309,7 +310,8 @@ audio{
 	.bat_wrap h3{
 		font-size: 2.25em;
 		font-weight: 400;
-		margin: 3em 0 1em 0;
+		margin: .5em 0;
+		letter-spacing: 0.01em;
 	}
 }
 
